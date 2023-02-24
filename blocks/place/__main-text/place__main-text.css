@@ -1,0 +1,29 @@
+.place__main-text {
+  max-width: 484px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  grid-area: text;
+}
+
+@media screen and (max-width: 946px) {
+  .place__main-text {
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  .place__main-text {
+    max-width: 579px;
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__main-text {
+    max-width: 288px;
+  }
+}

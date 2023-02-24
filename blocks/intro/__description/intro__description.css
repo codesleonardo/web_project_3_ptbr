@@ -1,0 +1,14 @@
+.intro__description {
+  max-width: 720px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 42px 0 0 0;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__description {
+    margin-top: 18px;
+  }
+}

@@ -1,0 +1,15 @@
+.intro__quote {
+  max-width: 690px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__quote {
+    max-width: 288px;
+    line-height: 1.2;
+  }
+}

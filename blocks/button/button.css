@@ -1,0 +1,41 @@
+.button {
+  color: #ffffff;
+  text-decoration: none;
+  background: #0278fe;
+  border-radius: 4px;
+  max-width: 355px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s linear;
+  cursor: pointer;
+  grid-area: button;
+}
+
+.button:hover {
+  background-color: #0077ffa9;
+}
+
+@media screen and (max-width: 710px) {
+  .button {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  .button {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .button {
+    max-width: 288px;
+    font-size: 14px;
+  }
+}
