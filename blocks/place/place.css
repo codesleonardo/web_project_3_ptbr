@@ -8,6 +8,7 @@
     "button text";
   gap: 48px 40px;
   padding: 0 0 80px 0;
+  margin: auto auto auto 20px;
 }
 
 @media screen and (max-width: 946px) {

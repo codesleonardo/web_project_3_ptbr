@@ -10,21 +10,21 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-    width: 92%;
+    width: 95%;
     font-size: 42px;
   }
 }
 
 @media screen and (max-width: 643px) {
   .place__title {
-    width: 92%;
+    width: 95%;
     margin: 0 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
-    width: 92%;
+    width: 95%;
     max-width: 288px;
     font-size: 32px;
     padding-bottom: 30px;

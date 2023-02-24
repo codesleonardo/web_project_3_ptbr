@@ -4,28 +4,28 @@
 
 @media screen and (max-width: 746px) {
   .place__paragraph {
-    width: 92%;
+    width: 95%;
     max-width: 450px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    width: 92%;
+    width: 95%;
     max-width: 340px;
   }
 }
 
 @media screen and (max-width: 643px) {
   .place__paragraph {
-    width: 92%;
+    width: 95%;
     max-width: 579px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph:last-child {
-    width: 92%;
+    width: 95%;
     margin: 0;
   }
 }
