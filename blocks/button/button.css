@@ -23,18 +23,20 @@
 
 @media screen and (max-width: 710px) {
   .button {
+    width: 92%;
     margin-top: 48px;
   }
 }
 
 @media screen and (max-width: 643px) {
   .button {
-    width: 100%;
+    width: 92%;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 320px) {
   .button {
+    width: 92%;
     max-width: 288px;
     font-size: 14px;
   }
